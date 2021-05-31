@@ -9,8 +9,10 @@
 The model was trained over *9 epochs*, with a learning rate of *0.003*.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120228304-79283e80-c268-11eb-88bc-a51ff90f2fa0.png" width = '400' height = '320'> 
 
-## My Model v/s Gensim's Model
+## Performance
 
-## Analysis
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120229946-e7bacb80-c26b-11eb-9114-7fe61bbb55ff.png" width = '400' height = '320'>
+
+## Analogical Reasoning
 
 ## Improvements
