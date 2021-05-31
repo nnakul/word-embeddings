@@ -24,7 +24,6 @@ The performance of *My Model* is better than the performance of *Gensim's Model*
 
 ## Analogical Reasoning
 *Analogical Reasoning* tasks check the ability of the model to automatically organize concepts and learn implicitly the relationships between them, as during the training we did not provide any supervised information about, say, what a capital city means or how a father-mother semantic relationship is related to a son-daughter semantic relationship. This model performs considerably well on the analogical reasoning tasks.
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233258-053f6380-c273-11eb-819a-5340ccffad91.png" width = '1026' height = '218'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233259-053f6380-c273-11eb-892c-fb678a570cdf.png" width = '1026' height = '218'>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233261-05d7fa00-c273-11eb-8aee-77f16dc2c114.png" width = '1026' height = '218'>
@@ -33,3 +32,4 @@ The performance of *My Model* is better than the performance of *Gensim's Model*
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233256-04a6cd00-c273-11eb-8a3e-9bacc926848c.png" width = '1026' height = '218'>
 
 ## Improvements
+The implementation does not deal with phrases. For example, the meanings of *Canada* and *Air* cannot be easily combined to obtain *Air Canada*. *Distributed Representations of Words and Phrases and their Compositionality* paper presents a simple data-driven method for finding phrases in text and shows that learning good vector representations for millions of phrases in the training corpus is possible.
