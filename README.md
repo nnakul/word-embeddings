@@ -10,17 +10,17 @@ The model was trained over *9 epochs*, with a learning rate of *0.003*.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120228304-79283e80-c268-11eb-88bc-a51ff90f2fa0.png" width = '400' height = '320'> 
 
 ## Performance
-The following function is the most original loss function that would have been used to compute loss in the uppermost layer of the network if we did not use any sampling-based or approximated softmax-based approaches. Ths following loss function (and the other equation) is used to deduce the performance of this model on some test corpora, of variable sizes (performance being the *sigmoid* of the loss's reciprocal).<br>
+The following function is the most original objective function that would have been used to compute loss in the uppermost layer of the network if we did not use any sampling-based or approximated softmax-based approaches. Ths following loss function (and the other equation) is used to deduce the performance of this model on some test corpora, of variable sizes (performance being the *sigmoid* of the loss's reciprocal).<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120231051-31a4b100-c26e-11eb-993f-fcdf23f4dae5.png" width = '500' height = '80'>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120231310-bc85ab80-c26e-11eb-97b6-201af5a14571.png" width = '310' height = '60'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120231310-bc85ab80-c26e-11eb-97b6-201af5a14571.png" width = '310' height = '60'>
 
-
-
-
+Besides on the training corpus, the performance of the model was evaluated on 6 test corpora, of increasing word counts. For comparison, a *Gensim Word2Vec Model* was trained with the same training corpus and this model was also evaluated on all the corpora. The performance chart of the two models is shown below.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120229946-e7bacb80-c26b-11eb-9114-7fe61bbb55ff.png" width = '400' height = '320'>
+
+The performance of *My Model* is better than the performance of *Gensim's Model* on all the corpora. This might be due to the noise-filtering and re-sampling done in *My Model*'s architecture to first refine the training corpus, that might not be done before training of the *Gensim's Model*. The performance of *Gensim's Model* on the test corpora is almost the same as on the training corpus (excellent fitting). *My Model* does not exhibit drastic fluctuations in its performance with increasing size of the corpus, but the performance on any test corpus is observed to be less than that on the training corpus.
 
 ## Analogical Reasoning
 
