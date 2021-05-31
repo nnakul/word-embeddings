@@ -23,5 +23,13 @@ Besides on the training corpus, the performance of the model was evaluated on 6 
 The performance of *My Model* is better than the performance of *Gensim's Model* on all the corpora. This might be due to the noise-filtering and re-sampling done in *My Model*'s architecture to first refine the training corpus, that might not be done before training of the *Gensim's Model*. The performance of *Gensim's Model* on the test corpora is almost the same as on the training corpus (excellent fitting). *My Model* does not exhibit drastic fluctuations in its performance with increasing size of the corpus, but the performance on any test corpus is observed to be less than that on the training corpus.
 
 ## Analogical Reasoning
+*Analogical Reasoning* tasks check the ability of the model to automatically organize concepts and learn implicitly the relationships between them, as during the training we did not provide any supervised information about, say, what a capital city means or how a father-mother semantic relationship is related to a son-daughter semantic relationship. This model performs considerably well on the analogical reasoning tasks.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233258-053f6380-c273-11eb-819a-5340ccffad91.png" width = '1026' height = '218'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233259-053f6380-c273-11eb-892c-fb678a570cdf.png" width = '1026' height = '218'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233261-05d7fa00-c273-11eb-8aee-77f16dc2c114.png" width = '1026' height = '218'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233252-0375a000-c273-11eb-9ac1-8e8be0fb454d.png" width = '1026' height = '218'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233254-040e3680-c273-11eb-8201-9c8b10819993.png" width = '1026' height = '218'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120233256-04a6cd00-c273-11eb-8a3e-9bacc926848c.png" width = '1026' height = '218'>
 
 ## Improvements
