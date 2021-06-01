@@ -10,7 +10,7 @@ The model was trained over *9 epochs*, with a learning rate of *0.003*. Training
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120228304-79283e80-c268-11eb-88bc-a51ff90f2fa0.png" width = '400' height = '320'> 
 
 ## Performance
-The following function is the most original objective function that would have been used to compute loss in the uppermost layer of the network if we did not use any sampling-based or approximated softmax-based approaches. Ths following loss function (and the other equation) is used to deduce the performance of this model on some test corpora, of variable sizes (performance being the *sigmoid* of the loss's reciprocal).<br>
+The following function is the most original objective function that would have been used to compute loss in the uppermost layer of the network if we did not use any sampling-based or approximated softmax-based approaches. The following loss function (and the other equation) is used to deduce the performance of this model on some test corpora, of variable sizes (performance being the *sigmoid* of the loss's reciprocal).<br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120231051-31a4b100-c26e-11eb-993f-fcdf23f4dae5.png" width = '500' height = '80'>
 
