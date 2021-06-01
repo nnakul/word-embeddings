@@ -6,7 +6,7 @@
 *NEG* uses a logistic loss function to minimise the negative log-likelihood of words in the training set. The task is to use logistic regression in order to distinguish the true target from a *k*-size subset of all possible targets, the subset being constructed considering a noise distribution over all the targets. The targets in this *k*-subset are called *negative samples* and the noise distribution over all the samples is based on their frequency in the training corpus (as described in the paper). In this project, 10 negative samples are chosen for every training data sample while computing the forward loss (*k = 10*).
 
 ## Training
-The model was trained over *9 epochs*, with a learning rate of *0.003*.<br><br>
+The model was trained over *9 epochs*, with a learning rate of *0.003*. Training took almost *5 hours*.<br><br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://user-images.githubusercontent.com/66432513/120228304-79283e80-c268-11eb-88bc-a51ff90f2fa0.png" width = '400' height = '320'> 
 
 ## Performance
